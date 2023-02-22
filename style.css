@@ -161,3 +161,50 @@ body {
   color: var(--lightGray);
 }
 
+.attribution{
+  font-size: 1.6rem;
+  font-family: "Karla";
+  font-weight: 400;
+}
+
+.attribution a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 650px) {
+
+  .infos {
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+    margin-inline: 3rem;
+  }
+
+  .info1 {
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+  
+  .info1 h2{
+    max-width: 25ch;
+  }
+
+  .info1 p{
+    max-width: 34ch;
+    margin-right: 1rem;
+  }
+
+  .info2 {
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 0;
+  }
+  
+  .info3{
+    border-radius: 0rem 0rem 1rem 1rem;
+  }
+
+  footer {
+    margin-top: 3rem;
+  }
+}
